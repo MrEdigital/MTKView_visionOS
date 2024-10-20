@@ -21,7 +21,7 @@ This was, for some reason, a missing feature.  I'm assuming they will one day ad
 
 Just drop the Swift file into your project and compile.
 
-There's also an included "Screen.swift" that typealiases `NSScreen` for macOS, `UIScreen` for iOS0, and defines a basic struct for visionOS, allowing for cross-compatibility on screen scale checks.  If you'd rather not, you will need to handle the usage of `Screen.scale` in the main file.  For visionOS, the value should only ever be 1.
+There's also an included "ScreenAlias.swift" that typealiases `NSScreen` for macOS, `UIScreen` for iOS0, and defines a basic struct for visionOS, allowing for cross-compatibility on screen scale checks.  If you'd rather not, you will need to handle the usage of `Screen.scale` in the main file.  For visionOS, the value should only ever be 1.
 
 ## Usage
 
